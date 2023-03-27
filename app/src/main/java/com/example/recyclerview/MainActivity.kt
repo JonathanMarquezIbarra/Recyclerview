@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onItemSelected(superHero: SuperHero){
-        Toast.makeText(this, superHero.superHero, Toast.LENGTH_SHORT)
+        Toast.makeText(this, superHero.superHero, Toast.LENGTH_SHORT).show()
     }
 
 }
