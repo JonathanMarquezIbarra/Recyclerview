@@ -30,7 +30,7 @@ class SuperHeroProvider {
             SuperHero(
                 "Cyclops",
                 "Marvel",
-                "Scot Summers",
+                "Scott Summers",
                 "https://i.pinimg.com/originals/a4/4f/45/a44f45f683ac7e4706dc3c0b2867c1fd.jpg"
             )
         )
