@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView(){
-        val manager = GridLayoutManager(this, 2)
+        val manager = LinearLayoutManager(this)
         val decoration = DividerItemDecoration(this, manager.orientation)
 
         binding.recyclerSuperHero.layoutManager = manager
