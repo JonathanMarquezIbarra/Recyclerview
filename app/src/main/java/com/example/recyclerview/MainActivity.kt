@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.recyclerview.adapter.SuperHeroAdapter
 import com.example.recyclerview.databinding.ActivityMainBinding
@@ -33,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerSuperHero.addItemDecoration(decoration)
     }
 
-    fun onItemSelected(superHero: SuperHero){
+    private fun onItemSelected(superHero: SuperHero){
         Toast.makeText(this, superHero.superHero, Toast.LENGTH_SHORT).show()
     }
 
